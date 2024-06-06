@@ -11,14 +11,13 @@
 
 ## Project Overview
 
-This project is a website designed for Prodigy, showcasing their services and offerings in the field of web development.
+This project is a website designed for a Travel Agency, showcasing their services and offerings in the field.
 
 ## Features
 
 - **Responsive Design**: Works well on desktops, tablets, and mobile devices.
-- **Services Showcase**: Highlighting Prodigy's web development services.
-- **Portfolio**: Displaying projects and case studies.
-- **Team Section**: Introducing the team members.
+- **Services Showcase**: Highlighting Travel agency's services.
+- **Animation**: animation on scrolling and hovering.
 - **Contact Form**: Simple form for inquiries.
 
 ## Technologies Used
@@ -26,13 +25,12 @@ This project is a website designed for Prodigy, showcasing their services and of
 - **HTML5**: Markup language.
 - **CSS3**: Styles and animations.
 - **JavaScript**: Interactivity.
-- **Bootstrap**: Framework for responsiveness.
 
 ## Usage
 - **Navigation Menu**: Explore different sections using the top menu.
-- **Services**: Learn about Prodigy's services.
-- **Portfolio**: View their projects and case studies.
-- **Team**: Meet the team members.
+- **Services**: Learn about Travel Agency's services.
+- **Destinations**: Look at their destinations.
+- **Reviews**: Look at their reviews.
 - **Contact Form**: Use the form to send inquiries.
 
 
