@@ -1,0 +1,261 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #F9F9E0;
+}
+header {
+    background: #3AA6B9;
+    color: #fff;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
+}
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+}
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.hamburger .line {
+    width: 25px;
+    height: 3px;
+    background: #fff;
+    margin: 4px;
+}
+.welcome{
+    position: absolute;
+    z-index: 500;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 3rem;
+    font-family: "Spectral", serif;
+    font-weight: 700;
+    font-style: italic;
+    color: black;
+}
+#welcome-btn{
+    position: absolute;
+    z-index: 500;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+.btn{
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #FF7D29;
+    border-color: #FF7D29;
+    padding: 10px;
+    cursor: pointer;
+    font-family: "Spectral", serif;
+    font-weight: 600;
+    font-style: italic;
+}
+.btn:hover{
+    background-color: #FFBF78;
+    border-color: #FFBF78;
+}
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.flex-image{
+    width: 250px;
+    height: 150px;
+}
+.flex-line{
+    text-align: center;
+    font-family: "Spectral", serif;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 2rem;
+    margin: 0;
+}
+h2{
+    display: block; 
+    font-family: "Spectral", serif;
+    font-weight: 600;
+    font-style: italic;
+    text-align: center;
+    margin:3rem;
+    font-size: 3rem;
+}
+.element {
+    border: 2px solid brown;
+    border-radius: 5px;
+    cursor: pointer;
+    flex: 0 0 20%;
+    margin: 2rem;
+}
+.element:hover{
+    transform: scale(1.1);
+}
+.destinations{
+    background-color: #FFD0D0;
+    padding: 2rem;
+}
+.texts{
+    font-family: "Spectral", serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 30px;
+}
+.texts1{
+    font-family: "Spectral", serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 20px;
+    margin: 20px;
+}
+
+.ad > h3{
+    position: relative;
+    font-family: "Spectral", serif;
+    font-weight: 600;
+    font-style: italic;
+    text-align: center;
+    font-size: 3rem;
+    top: 300px;
+    color: #F9F9E0;
+}
+.ad > img{
+    width:100vw; 
+    height: 50vh; 
+    object-fit: cover; 
+}
+#ending > h3{
+    font-family: "Spectral", serif;
+    font-weight: 600;
+    font-style: italic;
+    text-align: center;
+    font-size: 3rem;
+}
+#feedback{
+    margin: 10px;
+    padding: 50px;
+    background-color: #FFD0D0;
+    font-family: "Spectral", serif;
+    font-weight: 600;
+    font-style: italic;
+    text-align: center;
+    font-size: 1.5rem;
+}
+#destinations, #services {
+    background: #f9f9f9;
+}
+
+#contact form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+#contact label {
+    font-size: 1rem;
+}
+
+#contact input, #contact textarea {
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+#contact button {
+    background: #ff6b6b;
+    color: #fff;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+#contact button:hover {
+    background: #ff4d4d;
+}
+footer {
+    background: #3AA6B9;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 50px;
+}
+
+.change{
+    margin: 5% 25%
+}
+
+
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+    hr{
+        width: 40vw;
+    }
+    .flex-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-left: 70px;
+        margin-right: 70px;
+    }
+    .welcome, h2{
+        font-size: 2rem;
+    }
+    .texts{
+        font-size: 20px;
+    }
+    .change{
+        margin:10px;
+    }
+}
+
