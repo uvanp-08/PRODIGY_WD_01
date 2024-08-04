@@ -1,6 +1,6 @@
 # Responsive Landing Website
 
- This README file provides an overview of the project structure, installation, and usage instructions.
+ This README file provides an overview of the project structure, installation, and usage instructions. Done as part of internship at Prodigy Infotech.
 
 ## Table of Contents
 
@@ -34,4 +34,4 @@ This project is a website designed for a Travel Agency, showcasing their service
 - **Contact Form**: Use the form to send inquiries.
 
 
-Thank you for checking out this Website. Feel free to reach out with any feedback.
+Thank you for checking out this Website. Feel free to reach out with any feedback. Website is live at https://uvanp-08.github.io/PRODIGY_WD_01/ 
